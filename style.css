@@ -60,3 +60,9 @@ h1, h2, h3 {
  .clear {
    display: none;
  }
+
+ .line {
+   text-decoration: line-through;
+   font-size: 10px;
+   border: 1px solid red;
+ }

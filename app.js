@@ -31,8 +31,9 @@ addTask = (e) => {
     let btnDelete = taskLi.querySelector(".delete");
 
     const checkTask = () => {
-        // console.log('naciśnięto!');
-        taskLi.style.textDecoration = "line-through"
+        console.log('naciśnięto!');
+        // taskLi.style.textDecoration = "line-through";
+        taskLi.querySelector("input").classList.add("line");
     }
     
     btnChcecked.addEventListener("click", checkTask);
