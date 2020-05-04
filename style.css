@@ -1,0 +1,62 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background: url(beach.jpg);
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-position-y: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+
+
+h1, h2, h3 {
+  font-family: 'Indie Flower';
+  font-weight: bolder;
+}
+
+.app-container {
+  max-width: 450px;
+  width: 100%;
+  padding: 25px;
+  background: rgba(255,255,255,0.5);
+  box-shadow: 0 0 62px rgba(0,0,0,0.5);
+  font-family: 'Quicksand';
+}
+
+.app-container h3 {
+  margin-bottom: 25px;
+}
+
+@media (max-width: 1024px) {
+  body {
+    background-color: turquoise;
+    background: url(beach.jpg);
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position-y: 20%;
+    /* opacity: 0.7; */
+    
+  }
+ }
+
+ /* new task */
+ .new-task-container {
+   margin-bottom: 30px;
+ }
+
+ /* tasks list */
+ .tasks-container li {
+   margin-left: -40px;
+   padding: 0;
+   list-style: none;
+ }
+
+ /* clear task */
+ .clear {
+   display: none;
+ }
